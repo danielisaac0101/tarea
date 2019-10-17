@@ -46,7 +46,8 @@ def main():
         for r in range (1,13,1):
             for c in range (1,33,1):
                 f=(f+a3.get_item(anio-1985,e,m))
-                g=(f/12)/34
+                g=((f/12)/34)/33
+                
                 
     print("El promedio total de todos los estados, todos los meses para todos los años es de:",g)
 main()
